@@ -1,1 +1,1 @@
-deploy stat: https://travis-ci.com/humanlearn/website
+deploy stat: https://travis-ci.org/HumanLearn/website
