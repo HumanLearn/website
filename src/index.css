@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Space+Mono:400,700';
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans GB', 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: white;
+}
+
+body.font-loaded {
+  font-family: 'Space Mono', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans GB', 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif;
+}
+
+u {
+  text-decoration: none;
+  background: linear-gradient(currentColor, currentColor) no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 90%;
+}
+
+.hero.is-dark.is-bold.is-bg {
+  background-image: url(./asset/background-1.jpeg);
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+
+.reset-color {
+  color: currentColor;
+}

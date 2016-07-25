@@ -1,0 +1,45 @@
+{
+  "name": "humanlearn-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm run build",
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
+    "build": "rm -rf dist && ./node_modules/.bin/webpack --inline --progress --config webpack.config.prod.js",
+    "deploy": "./deploy.sh"
+  },
+  "repository": "git@github.com:humanlearn/website.git",
+  "dependencies": {
+    "bulma": "^0.1.0",
+    "fontfaceobserver": "^2.0.1",
+    "fs-readdir-recursive": "^1.0.0",
+    "history": "^2.1.2",
+    "image-webpack-loader": "^2.0.0",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "ncp": "^2.0.0",
+    "node-sass": "^3.8.0",
+    "on-build-webpack": "^0.1.0",
+    "react": "^15.2.1",
+    "react-document-title": "^2.0.2",
+    "react-dom": "^15.2.1",
+    "react-fa": "^4.1.2",
+    "react-markdown": "^2.4.2",
+    "react-router": "^2.6.0",
+    "webpack": "^1.13.1",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "less-loader": "^2.2.3",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}
