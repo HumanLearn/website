@@ -6,6 +6,8 @@ then
   # git need this, on Travis-CI nobody is defined
   git config --global user.name "Travis CI" && \
   git config --global user.email "travis@travis-ci.org"
+  chmod 600 travis
+  mv travis ~/.ssh/id_rsa
 fi
 
 cd dist && \
