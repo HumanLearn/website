@@ -12,6 +12,34 @@ body.font-loaded {
   font-family: 'Space Mono', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans GB', 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif;
 }
 
+.container {
+  max-width: 960px;
+}
+
+.content {
+  padding: .5em;
+  font-size: 1.22em;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans GB', 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif;
+  line-height: 1.8em;
+}
+
+.content a:not(.button) {
+  margin: 0.18em;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.content strong {
+  margin: 0.18em;
+}
+
+.content h1, h2 {
+  font-weight: 600;
+}
+.content h3 {
+  font-weight: 400;
+}
+
 u {
   text-decoration: none;
   background: linear-gradient(currentColor, currentColor) no-repeat;
