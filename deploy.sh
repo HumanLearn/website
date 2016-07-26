@@ -8,6 +8,7 @@ then
   git config --global user.email "travis@travis-ci.org"
   chmod 600 travis
   mv travis ~/.ssh/id_rsa
+  echo "humanlearn.org" > dist/CNAME
 fi
 
 cd dist && \
